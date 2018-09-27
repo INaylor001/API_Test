@@ -14,6 +14,3 @@ class TestDTO
     puts "Name: " + @name + ", ID: " + @userID + ", age: " + @age.to_s
   end
 end
-
-user1 = TestDTO.new("Noah Eldreth", 20, "LevelUP100")
-puts user1.to_s
